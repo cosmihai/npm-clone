@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Mukta+Mahee');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans|Source+Sans+Pro|Lato|Mukta+Mahee');
 
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 0; 
   font-size: 15.5px;
 }
+.clear {
+  clear: both;
+}
+
 
 nav {
   background-color: #C12127;
@@ -38,5 +42,76 @@ header {
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+
+}
+#search-bar {
+  display: inline;
+  color: white;
+}
+#npm-logo {
+  height: 49px;
+  float: left;
+  margin-right: 20px;
+}
+#search-bar form {
+  margin: 0;
+  padding: 0;
+}
+#search-bar input {
+  background-color:rgb(31, 82, 111);
+  border: 1px solid rgba(255, 255, 255, .2);
+  color: white;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 14px 12px;
+  width: 67%;
+  float: left;
+}
+#search-bar button {
+  float: left;  
+  background-color:rgb(31, 82, 111);
+  border: 1px solid rgba(255, 255, 255, .2);
+  padding: 12.5px;
+}
+#search-bar a{
+  color: white;
+  text-decoration: none;
+}
+#hdr-lnk-right {
+  padding: 13px 10px;
+  margin-left: 10px;
+  width: 110px;
+  float: left;
+}
+#bear-logo {
+  height:44px;
+  float: left;
+}
+#hdr-text {
+  color: white;
+  width: 45%;
+  height: 330px;
+  margin-left: 8%;
+  margin-top: 45px;
+}
+#hdr-text h1 {
+  font-size: 3.5em;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+#hdr-text p {
+  font-size: 1.3em;
+  margin: 15px 0 35px;
+  line-height: 1.2;
+}
+#hdr-text a {
+  font-size: 1.3em;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(240, 146, 51);
+  padding: 8px 28px;
+  border-radius: 30px;
 }
