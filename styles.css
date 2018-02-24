@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans|Source+Sans+Pro|Lato|Mukta+Mahee');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Quattrocento+Sans|Source+Sans+Pro|Lato|Mukta+Mahee');
 
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'sans-serif' ;
   margin: 0; 
-  font-size: 15.5px;
+  font-size: 14px;
+  
 }
 .clear {
   clear: both;
@@ -51,7 +52,7 @@ header {
   color: white;
 }
 #npm-logo {
-  height: 49px;
+  width: 10%;
   float: left;
   margin-right: 20px;
 }
@@ -63,31 +64,34 @@ header {
   background-color:rgb(31, 82, 111);
   border: 1px solid rgba(255, 255, 255, .2);
   color: white;
-  font-size: 1.1em;
+  font-size: 16px;
   margin: 0;
   padding: 14px 12px;
-  width: 67%;
+  width: 66%;
   float: left;
 }
 #search-bar button {
   float: left;  
   background-color:rgb(31, 82, 111);
   border: 1px solid rgba(255, 255, 255, .2);
-  padding: 12.5px;
+  padding: 11.5px;
 }
 #search-bar a{
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
+  font-size: 16px;
 }
 #hdr-lnk-right {
-  padding: 13px 10px;
-  margin-left: 10px;
-  width: 110px;
+  padding: 10px 0;
+  margin-left:2%;
+  width: 10%;
   float: left;
 }
+
 #bear-logo {
-  height:44px;
+  width: 3.5%;
   float: left;
+  margin: 0;
 }
 #hdr-text {
   color: white;
@@ -97,15 +101,17 @@ header {
   margin-top: 45px;
 }
 #hdr-text h1 {
-  font-size: 3.5em;
-  font-weight: 100;
+  font-family: Open Sans;
+  font-size: 48px;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
 #hdr-text p {
-  font-size: 1.3em;
+  font-family: Open Sans;
+  font-size: 18px;
   margin: 15px 0 35px;
-  line-height: 1.2;
+  line-height: 23px;
 }
 #hdr-text a {
   font-size: 1.3em;
@@ -118,11 +124,11 @@ header {
 #orgs {
   background-color: rgb(39, 53, 71);
   color: white;
-  padding: 9% 0;
+  padding: 10% 0;
   margin: 0;
 }
 #content-orgs {
-  width: 85%;
+  width: 83%;
   margin: 0 auto;
 }
 #text-orgs {
@@ -132,16 +138,19 @@ header {
   margin-top: 30px;
 }
 #text-orgs h2 {
-  font-weight: 100;
-  font-size: 2.7em;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: -2px;
   margin: 0;
 }
 #text-orgs ul {
-  background-color:;
   padding-left: 18px;
   margin: 0;
-  font-size: 1.2em;
-  line-height: 2;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 40px;
   margin-bottom: 30px;
 }
 #sign-up-orgs {
@@ -172,12 +181,15 @@ header {
   left: 120px;
 }
 #forklift h2 {
-  font-weight: 100;
-  font-size: 2.7em;
+  font-weight: 300;
+  font-size: 36px;
   margin: 0;
+  letter-spacing: -2px;  
 }
 #forklift p {
-  font-size: 1.2em;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 #forklift a {
@@ -189,18 +201,19 @@ header {
   border-radius: 30px;
 }
 #registry-text h2 {
-  font-weight: 100;
-  font-size: 2.7em;
+  font-weight: 300;
+  font-size: 36px;
   color: rgb(63, 68, 78);
   text-align: center;
-  letter-spacing: .5px;
+  letter-spacing: -2px;
   margin: 70px 0 20px;
 }
 #registry-text p {
-font-size: 1.2em;
-color: rgb(135, 145, 156);
-text-align: center;
-margin: 0 0 25px;;
+  font-family: Open Sans;
+  font-size: 16px;
+  color: #6d7986;
+  text-align: center;
+  margin: 0 0 25px;;
 
 }
 #col3 {
@@ -218,8 +231,9 @@ margin: 0 0 25px;;
   margin: 10px 11%;
 }
 .col p {
-  font-size: 1.2em;
-  color: rgb(135, 145, 156);
+  font-family: Open Sans;
+  font-size: 16px;
+  color: #6d7986;
 }
 .col h3 {
   color: rgb(63, 68, 78);
