@@ -115,3 +115,116 @@ header {
   padding: 8px 28px;
   border-radius: 30px;
 }
+#orgs {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  padding: 9% 0;
+  margin: 0;
+}
+#content-orgs {
+  width: 85%;
+  margin: 0 auto;
+}
+#text-orgs {
+  float: right;
+  width: 42%;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+#text-orgs h2 {
+  font-weight: 100;
+  font-size: 2.7em;
+  margin: 0;
+}
+#text-orgs ul {
+  background-color:;
+  padding-left: 18px;
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+#sign-up-orgs {
+  font-size: 1.3em;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(203, 56, 55);
+  padding: 8px 28px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+#text-orgs a{
+  color: white;
+  text-decoration: none;
+}
+#what-is-npm {
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  height: 510px;
+  position: relative;
+}
+#forklift {
+  margin: 0;
+  color: white;
+  width: 29%;
+  position: absolute;
+  top: 110px;
+  left: 120px;
+}
+#forklift h2 {
+  font-weight: 100;
+  font-size: 2.7em;
+  margin: 0;
+}
+#forklift p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+#forklift a {
+  background-color: rgb(49, 68, 88);
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 8px 28px;
+  border-radius: 30px;
+}
+#registry-text h2 {
+  font-weight: 100;
+  font-size: 2.7em;
+  color: rgb(63, 68, 78);
+  text-align: center;
+  letter-spacing: .5px;
+  margin: 70px 0 20px;
+}
+#registry-text p {
+font-size: 1.2em;
+color: rgb(135, 145, 156);
+text-align: center;
+margin: 0 0 25px;;
+
+}
+#col3 {
+  width: 82%;
+  margin: 0 auto;
+}
+.col {
+  width: 23.7%;
+  float: left;
+  text-align: center;
+  padding: 0 1%;
+  margin: 10px auto;
+}
+.col-middle {
+  margin: 10px 11%;
+}
+.col p {
+  font-size: 1.2em;
+  color: rgb(135, 145, 156);
+}
+.col h3 {
+  color: rgb(63, 68, 78);
+}
+.col a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
